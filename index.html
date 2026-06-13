@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<link rel="stylesheet" href="style.css">
+<title>
+Startup Prediction AI
+</title>
+
+</head>
+
+
+<body>
+
+
+<h1>
+Startup Success Prediction
+</h1>
+
+
+<div>
+
+
+<label>
+Funding Rounds
+</label>
+
+<input id="funding_rounds" type="number">
+
+
+<br>
+
+
+<label>
+Founder Experience Years
+</label>
+
+<input id="founder_experience_years" type="number">
+
+
+<br>
+
+
+<label>
+Team Size
+</label>
+
+<input id="team_size" type="number">
+
+
+<br>
+
+
+<label>
+Market Size Billion $
+</label>
+
+<input id="market_size_billion" type="number">
+
+
+<br>
+
+
+<label>
+Product Traction Users
+</label>
+
+<input id="product_traction_users" type="number">
+
+
+<br>
+
+
+<label>
+Burn Rate Million $
+</label>
+
+<input id="burn_rate_million" type="number">
+
+
+<br>
+
+
+<label>
+Revenue Million $
+</label>
+
+<input id="revenue_million" type="number">
+
+
+<br>
+
+
+<label>
+Investor Type
+</label>
+
+<select id="investor_type">
+
+<option value="0">
+Angel Investor
+</option>
+
+<option value="1">
+Venture Capital
+</option>
+
+<option value="2">
+Private Equity
+</option>
+
+
+</select>
+
+
+
+<br>
+
+
+
+<label>
+Sector
+</label>
+
+
+<select id="sector">
+
+<option value="0">
+Technology
+</option>
+
+
+<option value="1">
+Healthcare
+</option>
+
+
+<option value="2">
+Finance
+</option>
+
+
+<option value="3">
+E-Commerce
+</option>
+
+
+</select>
+
+
+
+<br>
+
+
+<label>
+Founder Background
+</label>
+
+
+<select id="founder_background">
+
+<option value="0">
+Engineering
+</option>
+
+
+<option value="1">
+Business
+</option>
+
+
+<option value="2">
+Research
+</option>
+
+
+<option value="3">
+Finance
+</option>
+
+
+</select>
+
+
+
+<br><br>
+
+
+<button onclick="predict()">
+
+Predict
+
+</button>
+
+
+
+<h2 id="result">
+
+Result will appear here
+
+</h2>
+
+
+<h3 id="confidence">
+
+</h3>
+
+
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
